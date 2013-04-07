@@ -1,0 +1,728 @@
+Last login: Mon Aug 27 09:20:04 on console
+MacBook-Air-de-Daniel:~ kfischer$ port
+MacPorts 2.1.2
+Entering interactive mode... ("help" for help, "quit" to quit)
+[Users/kfischer] > help selfupdate
+Usage: selfupdate --nosync
+
+Upgrade MacPorts itself and run the sync target
+
+[Users/kfischer] > exit           
+Goodbye
+MacBook-Air-de-Daniel:~ kfischer$ port selfupdate
+--->  Updating MacPorts base sources using rsync
+Error: /opt/local/bin/port: port selfupdate failed: Error synchronizing MacPorts sources: command execution failed
+MacBook-Air-de-Daniel:~ kfischer$ sudo port selfupdate
+
+WARNING: Improper use of the sudo command could lead to data loss
+or the deletion of important system files. Please double-check your
+typing when using sudo. Type "man sudo" for more information.
+
+To proceed, enter your password, or type Ctrl-C to abort.
+
+Password:
+--->  Updating MacPorts base sources using rsync
+MacPorts base version 2.1.2 installed,
+MacPorts base version 2.1.2 downloaded.
+--->  Updating the ports tree
+--->  MacPorts base is already the latest version
+
+The ports tree has been updated. To upgrade your installed ports, you should run
+  port upgrade outdated
+MacBook-Air-de-Daniel:~ kfischer$ sudo port search postgres
+BiggerSQL @1.3.9 (aqua, databases)
+    SQL front-end to the postgresql DBMS
+
+BigSQL @1.0 (aqua, databases)
+    postgresql psql-like client in cocoa
+
+gauche-dbd-pg @0.2.1 (databases, scheme)
+    Gauche database driver for PostgreSQL
+
+iplike @2.0.2 (databases)
+    PostgreSQL IP address query interface
+
+libpqxx @4.0 (databases, devel)
+    Official C++ client API for PostgreSQL
+
+libpqxx26 @2.6.9 (databases, devel)
+    Official C++ client API for PostgreSQL
+
+libzdb-postgresql80 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql80 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql81 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql81 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql82 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql82 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql83 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql83 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql84 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql84 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql90 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql90 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql91 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql91 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+libzdb-postgresql92 @2.10.5 (databases, devel)
+    Enable PostgreSQL support for postgresql92 # conflicts libzdb-mysql5
+    libzdb-mysql51 libzdb-mysql55 libzdb-mariadb
+
+ocaml-pgocaml @1.4 (devel, ocaml)
+    Type-safe OCaml-interface to the PostgreSQL-database
+
+ocaml-postgresql @1.18.0 (devel, ml)
+    OCaml-interface to the PostgreSQL-database
+
+octave-database @1.0.4 (math, science)
+    These are bindings that allow SQL queries and other database operations on
+    postgres, mysql, sqlite, and standard ODBC databases from within Octave.
+
+p5-class-dbi-pg @0.80.0 (perl)
+    Class::DBI extension for Postgres
+
+p5-datetime-format-pg @0.160.60 (perl)
+    Parse and format PostgreSQL dates and times
+
+p5-dbd-pg @2.19.2 (perl, databases)
+    Perl DBI module to provide access to PostgreSQL databases
+
+p5-pgtop @0.50.0 (perl)
+    display PostgreSQL performance info like `top'
+
+p5.8-class-dbi-pg @0.80.0 (perl)
+    Class::DBI extension for Postgres
+
+p5.8-datetime-format-pg @0.160.60 (perl)
+    Parse and format PostgreSQL dates and times
+
+p5.8-dbd-pg @2.19.2 (perl, databases)
+    Perl DBI module to provide access to PostgreSQL databases
+
+p5.8-pgtop @0.50.0 (perl)
+    display PostgreSQL performance info like `top'
+
+p5.10-class-dbi-pg @0.80.0 (perl)
+    Class::DBI extension for Postgres
+
+p5.10-datetime-format-pg @0.160.60 (perl)
+    Parse and format PostgreSQL dates and times
+
+p5.10-dbd-pg @2.19.2 (perl, databases)
+    Perl DBI module to provide access to PostgreSQL databases
+
+p5.10-pgtop @0.50.0 (perl)
+    display PostgreSQL performance info like `top'
+
+p5.12-class-dbi-pg @0.80.0 (perl)
+    Class::DBI extension for Postgres
+
+p5.12-datetime-format-pg @0.160.60 (perl)
+    Parse and format PostgreSQL dates and times
+
+p5.12-dbd-pg @2.19.2 (perl, databases)
+    Perl DBI module to provide access to PostgreSQL databases
+
+p5.12-pgtop @0.50.0 (perl)
+    display PostgreSQL performance info like `top'
+
+p5.14-class-dbi-pg @0.80.0 (perl)
+    Class::DBI extension for Postgres
+
+p5.14-datetime-format-pg @0.160.60 (perl)
+    Parse and format PostgreSQL dates and times
+
+p5.14-dbd-pg @2.19.2 (perl, databases)
+    Perl DBI module to provide access to PostgreSQL databases
+
+p5.14-pgtop @0.50.0 (perl)
+    display PostgreSQL performance info like `top'
+
+p5.16-class-dbi-pg @0.80.0 (perl)
+    Class::DBI extension for Postgres
+
+p5.16-datetime-format-pg @0.160.60 (perl)
+    Parse and format PostgreSQL dates and times
+
+p5.16-dbd-pg @2.19.2 (perl, databases)
+    Perl DBI module to provide access to PostgreSQL databases
+
+p5.16-pgtop @0.50.0 (perl)
+    display PostgreSQL performance info like `top'
+
+pg2xbase @2.4.1 (databases)
+    Convert data between PostgreSQL and DBF files
+
+pgAdmin3 @1.14.3 (aqua)
+    An administration program to PostgreSQL
+
+pgbouncer @1.4.2 (databases)
+    Lightweight connection pooler for PostgreSQL
+
+pgintcl @3.4.0 (databases)
+    Pure Tcl PostgreSQL interface
+
+pgpool @3.4.1 (databases)
+    PostgreSQL connection pool server
+
+pgpool-II @3.1 (databases)
+    PostgreSQL connection pool server
+
+pgsqlclient @1.0-Beta6 (databases)
+    ADO.NET adapter for PostgreSQL
+
+pgtcl @1.5 (databases)
+    Tcl PostgreSQL interface
+
+php5-postgresql @5.3.15 (php, databases)
+    a PHP interface to PostgreSQL, including the pgsql and pdo_pgsql extensions
+
+php53-postgresql @5.3.16 (lang, php, www, databases)
+    a PHP interface to PostgreSQL, including the pgsql and pdo_pgsql extensions
+
+php54-postgresql @5.4.6 (lang, php, www, databases)
+    a PHP interface to PostgreSQL, including the pgsql and pdo_pgsql extensions
+
+phppgadmin @5.0.4 (www, databases)
+    phpPgAdmin is a web-based administration tool for PostgreSQL.
+
+postgis @1.5.4 (databases)
+    PostGIS adds support for geographic objects to the PostgreSQL database
+
+postgis2 @2.0.1 (databases, gis)
+    PostGIS is the spatial extension to the PostGreSQL database.
+
+postgresql-devel @9.1alpha (databases)
+    The most advanced open-source database available anywhere.
+
+postgresql-jdbc @9.1-901 (java, databases)
+    PostgreSQL JDBC driver
+
+postgresql-server-devel @9.1alpha (databases)
+    run postgresql-devel as server
+
+postgresql-unaccent @0.1 (databases)
+    PostgreSQL extension that provides a function to remove accents from
+    characters
+
+postgresql7 @7.4.24 (databases)
+    The most advanced open-source database available anywhere
+
+postgresql80 @8.0.26 (databases)
+    The most advanced open-source database available anywhere
+
+postgresql80-doc @8.0.26 (databases)
+    Documentation for the postgresql database
+
+postgresql80-server @8.0.26 (databases)
+    run postgresql80 as server
+
+postgresql81 @8.1.23 (databases)
+    The most advanced open-source database available anywhere
+
+postgresql81-doc @8.1.23 (databases)
+    Documentation for the postgresql database
+
+postgresql81-server @8.1.23 (databases)
+    run postgresql81 as server
+
+postgresql82 @8.2.23 (databases)
+    The most advanced open-source database available anywhere
+
+postgresql82-doc @8.2.23 (databases)
+    Documentation for the postgresql database
+
+postgresql82-server @8.2.23 (databases)
+    run postgresql82 as server
+
+postgresql83 @8.3.20 (databases)
+    The most advanced open-source database available anywhere.
+
+postgresql83-doc @8.3.20 (databases)
+    Documentation for the postgresql database
+
+postgresql83-server @8.3.20 (databases)
+    run postgresql83 as server
+
+postgresql84 @8.4.13 (databases)
+    The most advanced open-source database available anywhere.
+
+postgresql84-doc @8.4.13 (databases)
+    Documentation for the postgresql database
+
+postgresql84-server @8.4.13 (databases)
+    run postgresql84 as server
+
+postgresql90 @9.0.9 (databases)
+    The most advanced open-source database available anywhere.
+
+postgresql90-doc @9.0.9 (databases)
+    Documentation for the postgresql database.
+
+postgresql90-server @9.0.9 (databases)
+    run postgresql90 as server
+
+postgresql91 @9.1.5 (databases)
+    The most advanced open-source database available anywhere.
+
+postgresql91-doc @9.1.5 (databases)
+    Documentation for the postgresql database ALPHA release.
+
+postgresql91-server @9.1.5 (databases)
+    run postgresql91 as server
+
+postgresql92 @9.2rc1 (databases)
+    The most advanced open-source database available anywhere.
+
+postgresql92-doc @9.2rc1 (databases)
+    Documentation for the postgresql database ALPHA release.
+
+postgresql92-server @9.2rc1 (databases)
+    run postgresql92 as server
+
+postgresql_autodoc @1.31 (databases, textproc)
+    Automatic documentation generator for postgresql databases
+
+postgresql_select @0.1 (databases)
+    common files for selecting default PostgreSQL version
+
+pqa @1.6 (databases)
+    pqa is a PostgreSQL SQL analysis tool
+
+psqlODBC @09.01.0100 (databases)
+    Official ODBC driver for the PostgreSQL database.
+
+py-pgsql @2.5.1 (python, databases)
+    python DB-API 2.0 compliant interface to postgresql (8.2)
+
+py-postgresql @1.0.3 (python, devel, databases)
+    Python interface to PostgreSQL
+
+py-postgresql-exception @0.2 (python, databases)
+    exceptions for the py-postgresql modules
+
+py-postgresql-greentrunk @0.1 (python, databases)
+    greentrunk interface to postgresql
+
+py-postgresql-layout @0.3 (python, databases)
+    layout for the py-postgresql modules
+
+py-postgresql-pqueue @0.1 (python, databases)
+    pure python implementation of the pq protocol
+
+py-postgresql-proboscis @0.1 (python, databases)
+    postgresql database connector in pure python
+
+py-psycopg @1.1.21 (python, databases)
+    a python DBAPI-2.0 ompliant database adapter for postgresql
+
+py-psycopg2 @2.4.5 (python, databases)
+    A python DBAPI-2.0-compliant database adapter for postgresql
+
+py-pygresql @4.0 (python, databases)
+    Python module that interfaces to a PostgreSQL database
+
+py25-pgsql @2.5.1 (python, databases)
+    python DB-API 2.0 compliant interface to postgresql (8.3)
+
+py25-psycopg2 @2.4.5 (python, databases)
+    A python DBAPI-2.0-compliant database adapter for postgresql
+
+py25-pygresql @4.0 (python, databases)
+    Python module that interfaces to a PostgreSQL database
+
+py26-pgsql @2.5.1 (python, databases)
+    python DB-API 2.0 compliant interface to postgresql
+
+py26-psycopg2 @2.4.5 (python, databases)
+    A python DBAPI-2.0-compliant database adapter for postgresql
+
+py26-pygresql @4.0 (python, databases)
+    Python module that interfaces to a PostgreSQL database
+
+py27-psycopg2 @2.4.5 (python, databases)
+    A python DBAPI-2.0-compliant database adapter for postgresql
+
+py27-pygresql @4.0 (python, databases)
+    Python module that interfaces to a PostgreSQL database
+
+py31-postgresql @1.0.3 (python, devel, databases)
+    Python interface to PostgreSQL
+
+py31-psycopg2 @2.4.5 (python, databases)
+    A python DBAPI-2.0-compliant database adapter for postgresql
+
+py32-postgresql @1.0.3 (python, devel, databases)
+    Python interface to PostgreSQL
+
+py32-psycopg2 @2.4.5 (python, databases)
+    A python DBAPI-2.0-compliant database adapter for postgresql
+
+qore-pgsql-module @1.0.6 (lang)
+    PostgreSQL module for Qore
+
+qt4-mac-postgresql80-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql80
+
+qt4-mac-postgresql81-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql81
+
+qt4-mac-postgresql82-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql82
+
+qt4-mac-postgresql83-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql83
+
+qt4-mac-postgresql84-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql84
+
+qt4-mac-postgresql90-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql90
+
+qt4-mac-postgresql91-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql91
+
+qt4-mac-postgresql92-plugin @4.8.2 (aqua, databases)
+    Qt PostgreSQL database plugin for postgresql92
+
+rb-plruby @0.5.3 (ruby, databases)
+    PL/Ruby for PostgreSQL
+
+rb-postgres @0.7.1 (ruby, databases)
+    Ruby API for the PostgreSQL database
+
+slony1 @2.1.1 (databases)
+    A replication system for PostgreSQL
+
+TOra @2.1.3 (aqua, databases)
+    GUI tool for Oracle, PostgreSQL, and MySQL
+
+tsung @1.4.2 (erlang, devel)
+    Load test tool for HTTP, PostgreSQL, Jabber and others.
+
+Found 124 ports.
+MacBook-Air-de-Daniel:~ kfischer$ sudo port install postgresql90 postgresql90-server
+Warning: The Command Line Tools for Xcode don't appear to be installed; most ports will likely fail to build.
+Warning: See http://guide.macports.org/chunked/installing.xcode.html for more information.
+--->  Computing dependencies for postgresql90Error: Unable to execute port: can't read "build.cmd": Failed to locate 'make' in path: '/opt/local/bin:/opt/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin' or at its MacPorts configuration time location, did you move it?
+MacBook-Air-de-Daniel:~ kfischer$ sudo port install postgresql90 postgresql90-server
+Password:
+--->  Computing dependencies for postgresql90
+--->  Dependencies to be installed: bison gettext expat libiconv gperf ncurses m4 xz libxml2 zlib libxslt openssl ossp-uuid postgresql_select readline
+--->  Fetching archive for expat
+--->  Attempting to fetch expat-2.1.0_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/expat
+--->  Attempting to fetch expat-2.1.0_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/expat
+--->  Fetching distfiles for expat
+--->  Attempting to fetch expat-2.1.0.tar.gz from http://hivelocity.dl.sourceforge.net/project/expat/expat/2.1.0
+--->  Verifying checksum(s) for expat
+--->  Extracting expat
+--->  Configuring expat
+--->  Building expat
+--->  Staging expat into destroot
+--->  Installing expat @2.1.0_0
+--->  Activating expat @2.1.0_0
+--->  Cleaning expat
+--->  Fetching archive for gperf
+--->  Attempting to fetch gperf-3.0.4_2.darwin_12.x86_64.tbz2 from http://packages.macports.org/gperf
+--->  Attempting to fetch gperf-3.0.4_2.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/gperf
+--->  Fetching distfiles for gperf
+--->  Attempting to fetch gperf-3.0.4.tar.gz from http://mirrors.ibiblio.org/gnu/ftp/gnu/gperf
+--->  Verifying checksum(s) for gperf
+--->  Extracting gperf
+--->  Applying patches to gperf
+--->  Configuring gperf
+--->  Building gperf
+--->  Staging gperf into destroot
+--->  Installing gperf @3.0.4_2
+--->  Activating gperf @3.0.4_2
+--->  Cleaning gperf
+--->  Fetching archive for libiconv
+--->  Attempting to fetch libiconv-1.14_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/libiconv
+--->  Attempting to fetch libiconv-1.14_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/libiconv
+--->  Fetching distfiles for libiconv
+--->  Attempting to fetch libiconv-1.14.tar.gz from http://mirrors.ibiblio.org/gnu/ftp/gnu/libiconv
+--->  Verifying checksum(s) for libiconv
+--->  Extracting libiconv
+--->  Applying patches to libiconv
+--->  Configuring libiconv
+--->  Building libiconv
+--->  Staging libiconv into destroot
+--->  Installing libiconv @1.14_0
+--->  Activating libiconv @1.14_0
+--->  Cleaning libiconv
+--->  Fetching archive for ncurses
+--->  Attempting to fetch ncurses-5.9_1.darwin_12.x86_64.tbz2 from http://packages.macports.org/ncurses
+--->  Attempting to fetch ncurses-5.9_1.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/ncurses
+--->  Fetching distfiles for ncurses
+--->  Attempting to fetch ncurses-5.9.tar.gz from http://mirrors.ibiblio.org/gnu/ftp/gnu/ncurses
+--->  Verifying checksum(s) for ncurses
+--->  Extracting ncurses
+--->  Applying patches to ncurses
+--->  Configuring ncurses
+--->  Building ncurses
+--->  Staging ncurses into destroot
+--->  Installing ncurses @5.9_1
+--->  Activating ncurses @5.9_1
+--->  Cleaning ncurses
+--->  Fetching archive for gettext
+--->  Attempting to fetch gettext-0.18.1.1_2.darwin_12.x86_64.tbz2 from http://packages.macports.org/gettext
+--->  Attempting to fetch gettext-0.18.1.1_2.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/gettext
+--->  Fetching distfiles for gettext
+--->  Attempting to fetch gettext-0.18.1.1.tar.gz from http://mirrors.ibiblio.org/gnu/ftp/gnu/gettext
+--->  Verifying checksum(s) for gettext
+--->  Extracting gettext
+--->  Applying patches to gettext
+--->  Configuring gettext
+--->  Building gettext
+--->  Staging gettext into destroot
+--->  Installing gettext @0.18.1.1_2
+--->  Activating gettext @0.18.1.1_2
+--->  Cleaning gettext
+--->  Fetching archive for m4
+--->  Attempting to fetch m4-1.4.16_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/m4
+--->  Attempting to fetch m4-1.4.16_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/m4
+--->  Fetching distfiles for m4
+--->  Attempting to fetch m4-1.4.16.tar.bz2 from http://mirrors.ibiblio.org/gnu/ftp/gnu/m4
+--->  Verifying checksum(s) for m4
+--->  Extracting m4
+--->  Configuring m4
+--->  Building m4
+--->  Staging m4 into destroot
+--->  Installing m4 @1.4.16_0
+--->  Activating m4 @1.4.16_0
+--->  Cleaning m4
+--->  Fetching archive for xz
+--->  Attempting to fetch xz-5.0.4_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/xz
+--->  Attempting to fetch xz-5.0.4_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/xz
+--->  Fetching distfiles for xz
+--->  Attempting to fetch xz-5.0.4.tar.bz2 from http://ykf.ca.distfiles.macports.org/MacPorts/mpdistfiles/xz
+--->  Verifying checksum(s) for xz
+--->  Extracting xz
+--->  Configuring xz
+--->  Building xz
+--->  Staging xz into destroot
+--->  Installing xz @5.0.4_0
+--->  Activating xz @5.0.4_0
+--->  Cleaning xz
+--->  Fetching archive for bison
+--->  Attempting to fetch bison-2.6.2_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/bison
+--->  Attempting to fetch bison-2.6.2_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/bison
+--->  Fetching distfiles for bison
+--->  Attempting to fetch bison-2.6.2.tar.xz from http://mirrors.ibiblio.org/gnu/ftp/gnu/bison
+--->  Verifying checksum(s) for bison
+--->  Extracting bison
+--->  Configuring bison
+--->  Building bison
+--->  Staging bison into destroot
+--->  Installing bison @2.6.2_0
+--->  Activating bison @2.6.2_0
+--->  Cleaning bison
+--->  Fetching archive for zlib
+--->  Attempting to fetch zlib-1.2.7_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/zlib
+--->  Attempting to fetch zlib-1.2.7_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/zlib
+--->  Fetching distfiles for zlib
+--->  Attempting to fetch zlib-1.2.7.tar.bz2 from http://www.zlib.net/
+--->  Verifying checksum(s) for zlib
+--->  Extracting zlib
+--->  Configuring zlib
+--->  Building zlib
+--->  Staging zlib into destroot
+--->  Installing zlib @1.2.7_0
+--->  Activating zlib @1.2.7_0
+--->  Cleaning zlib
+--->  Fetching archive for libxml2
+--->  Attempting to fetch libxml2-2.7.8_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/libxml2
+--->  Attempting to fetch libxml2-2.7.8_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/libxml2
+--->  Fetching distfiles for libxml2
+--->  Attempting to fetch libxml2-2.7.8.tar.gz from http://ykf.ca.distfiles.macports.org/MacPorts/mpdistfiles/libxml2
+--->  Verifying checksum(s) for libxml2
+--->  Extracting libxml2
+--->  Configuring libxml2
+--->  Building libxml2
+--->  Staging libxml2 into destroot
+--->  Installing libxml2 @2.7.8_0
+--->  Activating libxml2 @2.7.8_0
+--->  Cleaning libxml2
+--->  Fetching archive for libxslt
+--->  Attempting to fetch libxslt-1.1.26_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/libxslt
+--->  Attempting to fetch libxslt-1.1.26_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/libxslt
+--->  Fetching distfiles for libxslt
+--->  Attempting to fetch libxslt-1.1.26.tar.gz from http://ykf.ca.distfiles.macports.org/MacPorts/mpdistfiles/libxslt
+--->  Verifying checksum(s) for libxslt
+--->  Extracting libxslt
+--->  Configuring libxslt
+--->  Building libxslt
+--->  Staging libxslt into destroot
+--->  Installing libxslt @1.1.26_0
+--->  Activating libxslt @1.1.26_0
+--->  Cleaning libxslt
+--->  Fetching archive for openssl
+--->  Attempting to fetch openssl-1.0.1c_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/openssl
+--->  Attempting to fetch openssl-1.0.1c_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/openssl
+--->  Fetching distfiles for openssl
+--->  Attempting to fetch openssl-1.0.1c.tar.gz from http://ykf.ca.distfiles.macports.org/MacPorts/mpdistfiles/openssl
+--->  Verifying checksum(s) for openssl
+--->  Extracting openssl
+--->  Applying patches to openssl
+--->  Configuring openssl
+--->  Building openssl
+--->  Staging openssl into destroot
+--->  Installing openssl @1.0.1c_0
+--->  Activating openssl @1.0.1c_0
+--->  Cleaning openssl
+--->  Fetching archive for ossp-uuid
+--->  Attempting to fetch ossp-uuid-1.6.2_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/ossp-uuid
+--->  Attempting to fetch ossp-uuid-1.6.2_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/ossp-uuid
+--->  Fetching distfiles for ossp-uuid
+--->  Attempting to fetch uuid-1.6.2.tar.gz from http://ykf.ca.distfiles.macports.org/MacPorts/mpdistfiles/ossp-uuid
+--->  Verifying checksum(s) for ossp-uuid
+--->  Extracting ossp-uuid
+--->  Applying patches to ossp-uuid
+--->  Configuring ossp-uuid
+--->  Building ossp-uuid
+--->  Staging ossp-uuid into destroot
+--->  Installing ossp-uuid @1.6.2_0
+--->  Activating ossp-uuid @1.6.2_0
+--->  Cleaning ossp-uuid
+--->  Fetching archive for postgresql_select
+--->  Attempting to fetch postgresql_select-0.1_0.darwin_12.noarch.tbz2 from http://packages.macports.org/postgresql_select
+--->  Attempting to fetch postgresql_select-0.1_0.darwin_12.noarch.tbz2 from http://lil.fr.packages.macports.org/postgresql_select
+--->  Fetching distfiles for postgresql_select
+--->  Verifying checksum(s) for postgresql_select
+--->  Extracting postgresql_select
+--->  Configuring postgresql_select
+--->  Building postgresql_select
+--->  Staging postgresql_select into destroot
+--->  Installing postgresql_select @0.1_0
+--->  Activating postgresql_select @0.1_0
+--->  Cleaning postgresql_select
+--->  Fetching archive for readline
+--->  Attempting to fetch readline-6.2.000_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/readline
+--->  Attempting to fetch readline-6.2.000_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/readline
+--->  Fetching distfiles for readline
+--->  Attempting to fetch readline-6.2.tar.gz from http://mirrors.ibiblio.org/gnu/ftp/gnu/readline
+--->  Verifying checksum(s) for readline
+--->  Extracting readline
+--->  Applying patches to readline
+--->  Configuring readline
+--->  Building readline
+--->  Staging readline into destroot
+--->  Installing readline @6.2.000_0
+--->  Activating readline @6.2.000_0
+--->  Cleaning readline
+--->  Fetching archive for postgresql90
+--->  Attempting to fetch postgresql90-9.0.9_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/postgresql90
+--->  Attempting to fetch postgresql90-9.0.9_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/postgresql90
+--->  Fetching distfiles for postgresql90
+--->  Attempting to fetch postgresql-9.0.9.tar.bz2 from http://ftp.postgresql.org/pub/source/v9.0.9/
+--->  Verifying checksum(s) for postgresql90
+--->  Extracting postgresql90
+--->  Applying patches to postgresql90
+--->  Configuring postgresql90
+--->  Building postgresql90
+--->  Staging postgresql90 into destroot
+--->  Installing postgresql90 @9.0.9_0
+
+To use the postgresql server, install the postgresql90-server port
+--->  Activating postgresql90 @9.0.9_0
+--->  Cleaning postgresql90
+--->  Computing dependencies for postgresql90-server
+--->  Fetching archive for postgresql90-server
+--->  Attempting to fetch postgresql90-server-9.0.9_0.darwin_12.x86_64.tbz2 from http://packages.macports.org/postgresql90-server
+--->  Attempting to fetch postgresql90-server-9.0.9_0.darwin_12.x86_64.tbz2 from http://lil.fr.packages.macports.org/postgresql90-server
+--->  Fetching distfiles for postgresql90-server
+--->  Verifying checksum(s) for postgresql90-server
+--->  Extracting postgresql90-server
+--->  Configuring postgresql90-server
+--->  Building postgresql90-server
+--->  Staging postgresql90-server into destroot
+--->  Creating launchd control script
+###########################################################
+# A startup item has been generated that will aid in
+# starting postgresql90-server with launchd. It is disabled
+# by default. Execute the following command to start it,
+# and to cause it to launch at startup:
+#
+# sudo port load postgresql90-server
+###########################################################
+--->  Installing postgresql90-server @9.0.9_0
+
+To create a database instance, after install do
+ sudo mkdir -p /opt/local/var/db/postgresql90/defaultdb
+ sudo chown postgres:postgres /opt/local/var/db/postgresql90/defaultdb
+ sudo su postgres -c '/opt/local/lib/postgresql90/bin/initdb -D /opt/local/var/db/postgresql90/defaultdb'
+
+To tweak your DBMS, consider increasing kern.sysv.shmmax by adding an increased kern.sysv.shmmax .. to /etc/sysctl.conf
+--->  Activating postgresql90-server @9.0.9_0
+--->  Cleaning postgresql90-server
+--->  Updating database of binaries: 100.0%
+--->  Scanning binaries for linking errors: 100.0%
+--->  No broken files found.
+MacBook-Air-de-Daniel:~ kfischer$ sudo mkdir -p /opt/local/var/db/postgresql90/defaultdb
+Password:
+MacBook-Air-de-Daniel:~ kfischer$ sudo chown postgres:postgres /opt/local/var/db/postgresql90/defaultdb
+MacBook-Air-de-Daniel:~ kfischer$ sudo su postgres -c '/opt/local/lib/postgresql90/bin/initdb -D /opt/local/var/db/postgresql90/defaultdb'
+The files belonging to this database system will be owned by user "postgres".
+This user must also own the server process.
+
+The database cluster will be initialized with locales
+  COLLATE:  C
+  CTYPE:    UTF-8
+  MESSAGES: C
+  MONETARY: C
+  NUMERIC:  C
+  TIME:     C
+The default database encoding has accordingly been set to UTF8.
+initdb: could not find suitable text search configuration for locale UTF-8
+The default text search configuration will be set to "simple".
+
+fixing permissions on existing directory /opt/local/var/db/postgresql90/defaultdb ... ok
+creating subdirectories ... ok
+selecting default max_connections ... 20
+selecting default shared_buffers ... 2400kB
+creating configuration files ... ok
+creating template1 database in /opt/local/var/db/postgresql90/defaultdb/base/1 ... ok
+initializing pg_authid ... ok
+initializing dependencies ... ok
+creating system views ... ok
+loading system objects' descriptions ... ok
+creating conversions ... ok
+creating dictionaries ... ok
+setting privileges on built-in objects ... ok
+creating information schema ... ok
+loading PL/pgSQL server-side language ... ok
+vacuuming database template1 ... ok
+copying template1 to template0 ... ok
+copying template1 to postgres ... ok
+
+WARNING: enabling "trust" authentication for local connections
+You can change this by editing pg_hba.conf or using the -A option the
+next time you run initdb.
+
+Success. You can now start the database server using:
+
+    /opt/local/lib/postgresql90/bin/postgres -D /opt/local/var/db/postgresql90/defaultdb
+or
+    /opt/local/lib/postgresql90/bin/pg_ctl -D /opt/local/var/db/postgresql90/defaultdb -l logfile start
+
+MacBook-Air-de-Daniel:~ kfischer$ sudo /opt/local/lib/postgresql90/bin/postgres -D /opt/local/var/db/postgresql90/defaultdb
+"root" execution of the PostgreSQL server is not permitted.
+The server must be started under an unprivileged user ID to prevent
+possible system security compromise.  See the documentation for
+more information on how to properly start the server.
+MacBook-Air-de-Daniel:~ kfischer$ /opt/local/lib/postgresql90/bin/postgres -D /opt/local/var/db/postgresql90/defaultdb
+postgres cannot access the server configuration file "/opt/local/var/db/postgresql90/defaultdb/postgresql.conf": Permission denied
+MacBook-Air-de-Daniel:~ kfischer$ 
+
