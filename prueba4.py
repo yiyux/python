@@ -21,16 +21,24 @@ class Cripto:
                     if count == indice:
                         palabra_crypt = palabra_crypt + letra_crypt
                     count += 1
-        print palabra_crypt
-        #Metodo descrifrar:
+        return palabra_crypt
 
-        #def descifrar(self, x):
-        #completar
+    def descifrar(self, x):
+        palabra_decrypt = ""
+        for letra in x:
+            indice = self.a2.find(letra)
+            if indice != -1:
+                count = 0
+                for letra_decrypt in self.a1:
+                    if count == indice:
+                        palabra_decrypt = palabra_decrypt + letra_decrypt
+                    count += 1
+        return palabra_decrypt
 
 
 texto = Cripto("sur")
 print texto.a1
 print texto.a2
 palabra = raw_input("Ingrese palabra sin espacio: ")
-texto.cifrar(palabra)
-
+print texto.cifrar(palabra)
+print texto.descifrar(texto.cifrar(palabra))
